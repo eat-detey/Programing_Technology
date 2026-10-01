@@ -19,6 +19,6 @@
         /// <returns>Строка вида «Название (зав.: ФИО)».</returns>
         public string GetInfo(){
             return $"{Name.Replace('_', ' ')} (зав.: {Head})";
-        } 
+        }  
     }
 }
